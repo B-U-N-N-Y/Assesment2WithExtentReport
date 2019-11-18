@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-11-14T10:29:29Z" name="tutorialsNinjaAndHeatClinic" finished-at="2019-11-14T10:30:34Z" duration-ms="65219">
+    <groups>
+    </groups>
+    <test started-at="2019-11-14T10:29:29Z" name="parallelRun" finished-at="2019-11-14T10:30:34Z" duration-ms="65219">
+      <class name="com.tutorialsninjaandheatclinic.TutorialsninjaAndHeatclinicAutomation.base.DynamicXML">
+        <test-method signature="xmlsuite()[pri:0, instance:com.tutorialsninjaandheatclinic.TutorialsninjaAndHeatclinicAutomation.base.DynamicXML@28c4711c]" started-at="2019-11-14T10:29:29Z" name="xmlsuite" finished-at="2019-11-14T10:30:34Z" duration-ms="65173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xmlsuite -->
+      </class> <!-- com.tutorialsninjaandheatclinic.TutorialsninjaAndHeatclinicAutomation.base.DynamicXML -->
+    </test> <!-- parallelRun -->
+  </suite> <!-- tutorialsNinjaAndHeatClinic -->
+</testng-results>

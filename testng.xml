@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="tutorialsNinjaAndHeatClinic">
+
+
+
+	<suite-files>
+		<suite-file
+			path="./src/test/resources/suitefiles/tutorialsNinjaFunctionality.xml" />
+		<suite-file
+			path="./src/test/resources/suitefiles/heatClinicFunctionality.xml" />
+
+
+	</suite-files>
+
+<!-- <test thread-count="5" name="parallelRun"> -->
+<!-- 		<classes> -->
+<!-- 			<class -->
+<!-- 				name="com.tutorialsninjaandheatclinic.TutorialsninjaAndHeatclinicAutomation.base.DynamicXML" /> -->
+
+
+<!-- 		</classes> -->
+<!-- 	</test> Test -->
+
+</suite> <!-- Suite -->
