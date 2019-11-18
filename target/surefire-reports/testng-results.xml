@@ -1,17 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-11-14T10:29:29Z" name="tutorialsNinjaAndHeatClinic" finished-at="2019-11-14T10:30:34Z" duration-ms="65219">
+  <suite name="tutorialsNinja" duration-ms="38615" started-at="2019-11-18T14:28:59Z" finished-at="2019-11-18T14:29:37Z">
     <groups>
     </groups>
-    <test started-at="2019-11-14T10:29:29Z" name="parallelRun" finished-at="2019-11-14T10:30:34Z" duration-ms="65219">
-      <class name="com.tutorialsninjaandheatclinic.TutorialsninjaAndHeatclinicAutomation.base.DynamicXML">
-        <test-method signature="xmlsuite()[pri:0, instance:com.tutorialsninjaandheatclinic.TutorialsninjaAndHeatclinicAutomation.base.DynamicXML@28c4711c]" started-at="2019-11-14T10:29:29Z" name="xmlsuite" finished-at="2019-11-14T10:30:34Z" duration-ms="65173" status="PASS">
+    <test name="tutorialNinjaTest" duration-ms="38615" started-at="2019-11-18T14:28:59Z" finished-at="2019-11-18T14:29:37Z">
+      <class name="com.tutorialsninjaandheatclinic.TutorialsninjaAndHeatclinicAutomation.testscripts.TutorialsNinjaFunctionalityValidation">
+        <test-method status="PASS" signature="intitailizeBrowser(org.testng.ITestContext)[pri:0, instance:com.tutorialsninjaandheatclinic.TutorialsninjaAndHeatclinicAutomation.testscripts.TutorialsNinjaFunctionalityValidation@7494e528]" name="intitailizeBrowser" is-config="true" duration-ms="6575" started-at="2019-11-18T14:28:59Z" finished-at="2019-11-18T14:29:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@778db7c5]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- xmlsuite -->
-      </class> <!-- com.tutorialsninjaandheatclinic.TutorialsninjaAndHeatclinicAutomation.base.DynamicXML -->
-    </test> <!-- parallelRun -->
+        </test-method> <!-- intitailizeBrowser -->
+        <test-method status="PASS" signature="intailization()[pri:0, instance:com.tutorialsninjaandheatclinic.TutorialsninjaAndHeatclinicAutomation.testscripts.TutorialsNinjaFunctionalityValidation@7494e528]" name="intailization" is-config="true" duration-ms="64" started-at="2019-11-18T14:29:05Z" depends-on-methods="com.tutorialsninjaandheatclinic.TutorialsninjaAndHeatclinicAutomation.base.TestBase.intitailizeBrowser" finished-at="2019-11-18T14:29:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intailization -->
+        <test-method status="PASS" signature="tutorialsNinjaHomePageValidation()[pri:1, instance:com.tutorialsninjaandheatclinic.TutorialsninjaAndHeatclinicAutomation.testscripts.TutorialsNinjaFunctionalityValidation@7494e528]" name="tutorialsNinjaHomePageValidation" duration-ms="56" started-at="2019-11-18T14:29:05Z" finished-at="2019-11-18T14:29:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tutorialsNinjaHomePageValidation -->
+        <test-method status="PASS" signature="tutorialsNinjaProductValidation()[pri:2, instance:com.tutorialsninjaandheatclinic.TutorialsninjaAndHeatclinicAutomation.testscripts.TutorialsNinjaFunctionalityValidation@7494e528]" name="tutorialsNinjaProductValidation" duration-ms="24544" started-at="2019-11-18T14:29:06Z" finished-at="2019-11-18T14:29:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tutorialsNinjaProductValidation -->
+        <test-method status="PASS" signature="cartValidation()[pri:3, instance:com.tutorialsninjaandheatclinic.TutorialsninjaAndHeatclinicAutomation.testscripts.TutorialsNinjaFunctionalityValidation@7494e528]" name="cartValidation" duration-ms="6115" started-at="2019-11-18T14:29:31Z" finished-at="2019-11-18T14:29:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartValidation -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.tutorialsninjaandheatclinic.TutorialsninjaAndHeatclinicAutomation.testscripts.TutorialsNinjaFunctionalityValidation@7494e528]" name="endTest" is-config="true" duration-ms="612" started-at="2019-11-18T14:29:37Z" finished-at="2019-11-18T14:29:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.tutorialsninjaandheatclinic.TutorialsninjaAndHeatclinicAutomation.testscripts.TutorialsNinjaFunctionalityValidation -->
+    </test> <!-- tutorialNinjaTest -->
+  </suite> <!-- tutorialsNinja -->
+  <suite name="heatClinic" duration-ms="31533" started-at="2019-11-18T14:29:38Z" finished-at="2019-11-18T14:30:10Z">
+    <groups>
+    </groups>
+    <test name="heatClinicTest" duration-ms="31533" started-at="2019-11-18T14:29:38Z" finished-at="2019-11-18T14:30:10Z">
+      <class name="com.tutorialsninjaandheatclinic.TutorialsninjaAndHeatclinicAutomation.testscripts.HeatClinicFuctionalityTesting">
+        <test-method status="PASS" signature="intitailizeBrowser(org.testng.ITestContext)[pri:0, instance:com.tutorialsninjaandheatclinic.TutorialsninjaAndHeatclinicAutomation.testscripts.HeatClinicFuctionalityTesting@5f282abb]" name="intitailizeBrowser" is-config="true" duration-ms="3719" started-at="2019-11-18T14:29:38Z" finished-at="2019-11-18T14:29:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@681e144]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitailizeBrowser -->
+        <test-method status="PASS" signature="intailization()[pri:0, instance:com.tutorialsninjaandheatclinic.TutorialsninjaAndHeatclinicAutomation.testscripts.HeatClinicFuctionalityTesting@5f282abb]" name="intailization" is-config="true" duration-ms="8" started-at="2019-11-18T14:29:42Z" depends-on-methods="com.tutorialsninjaandheatclinic.TutorialsninjaAndHeatclinicAutomation.base.TestBase.intitailizeBrowser" finished-at="2019-11-18T14:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intailization -->
+        <test-method status="PASS" signature="headerRedirectionValidation()[pri:1, instance:com.tutorialsninjaandheatclinic.TutorialsninjaAndHeatclinicAutomation.testscripts.HeatClinicFuctionalityTesting@5f282abb]" name="headerRedirectionValidation" duration-ms="9399" started-at="2019-11-18T14:29:42Z" finished-at="2019-11-18T14:29:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerRedirectionValidation -->
+        <test-method status="PASS" signature="merchandiseFunctionality([Ljava.lang.String;)[pri:2, instance:com.tutorialsninjaandheatclinic.TutorialsninjaAndHeatclinicAutomation.testscripts.HeatClinicFuctionalityTesting@5f282abb]" name="merchandiseFunctionality" duration-ms="16535" started-at="2019-11-18T14:29:52Z" data-provider="shirtdata" finished-at="2019-11-18T14:30:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@4248e66b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- merchandiseFunctionality -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.tutorialsninjaandheatclinic.TutorialsninjaAndHeatclinicAutomation.testscripts.HeatClinicFuctionalityTesting@5f282abb]" name="endTest" is-config="true" duration-ms="584" started-at="2019-11-18T14:30:09Z" finished-at="2019-11-18T14:30:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.tutorialsninjaandheatclinic.TutorialsninjaAndHeatclinicAutomation.testscripts.HeatClinicFuctionalityTesting -->
+    </test> <!-- heatClinicTest -->
+  </suite> <!-- heatClinic -->
+  <suite name="tutorialsNinjaAndHeatClinic" duration-ms="0" started-at="2019-11-18T14:30:10Z" finished-at="2019-11-18T14:30:10Z">
+    <groups>
+    </groups>
   </suite> <!-- tutorialsNinjaAndHeatClinic -->
 </testng-results>

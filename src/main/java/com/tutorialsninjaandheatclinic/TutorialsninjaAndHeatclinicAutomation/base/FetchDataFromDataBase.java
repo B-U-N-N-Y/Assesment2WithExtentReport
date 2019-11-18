@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.AfterSuite;
 
 public class FetchDataFromDataBase {
 	PreparedStatement pst;
@@ -78,21 +78,21 @@ public class FetchDataFromDataBase {
 //				fetch.fetchData("Assesment2", "heatClinicProductDetails", "FirstName", "arjun.santra355@atmecs.com"));
 //	}
 	
-	@BeforeSuite
-	public void tearDown() {
-		try {
-			connection.close();
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		try {
-			statement.close();
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		
-	}
+//	@AfterSuite
+//	public void tearDown() {
+//		try {
+//			connection.close();
+//		} catch (SQLException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//		try {
+//			statement.close();
+//		} catch (SQLException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//		
+//		
+//	}
 }

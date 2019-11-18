@@ -12,6 +12,7 @@ public class LoadDriver {
 			String connectionUrl = "jdbc:sqlserver://ATMECSINLT-087\\SQLEXPRESS; database=" + dataBaseName
 					+ "; integratedSecurity=true;";
 			Connection con = DriverManager.getConnection(connectionUrl);
+			//System.out.println("driver loaded");
 			return con;
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
